@@ -1,1 +1,23 @@
-/* Ingresa tu css aqui */
+.container {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*Cabecera*/
+.header {
+	width: 80%;
+	margin: 0 auto;
+}
+.header1 {
+	width: 100%;
+}
+
+/*Imagen grupal*/
+.conImgGrupal {
+	width: 80%;
+	margin: 0 auto;
+} 
+.imgGrupal {
+	width: 100%
+}
