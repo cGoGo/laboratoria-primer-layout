@@ -1,5 +1,5 @@
 .container {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -8,9 +8,36 @@
 .header {
 	width: 80%;
 	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .header1 {
 	width: 100%;
+}
+
+/*Menu*/
+.menu {
+	width: 80%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline;
+	text-align: center; 
+	margin: 0 auto;
+	padding: 0 6px 0 6px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.deco {
+	border-right: 1px black solid;
 }
 
 /*Imagen grupal*/
@@ -19,5 +46,26 @@
 	margin: 0 auto;
 } 
 .imgGrupal {
+	width: 100%
+}
+
+/*Parrafo*/
+.bordeParrafo {
+	width: 10%;
+}
+p {
+	width: 80%;
+}
+
+/*Nuestras Coders */
+.nuestrasCoders {
+	width: 80%;
+}
+.codersContainer {
+	width: 30%;
+	float: left;
+	padding: 1%;
+}
+.imgCoders {
 	width: 100%
 }
