@@ -135,3 +135,20 @@ h2 {
 	width: 25%;
 	margin: 2%;
 }
+
+.superhero {
+    -webkit-animation: example 4s infinite;
+    animation: example 4s infinite;
+    position: fixed;
+	right:0;
+	top: 30%;
+	z-index: 3;
+}
+@-webkit-keyframes example {
+    from {right: 0;}
+    to {right: 100%;}
+}
+@keyframes example {
+    from {right: 0;}
+    to {right: 100%;}
+}
