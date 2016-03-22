@@ -25,12 +25,14 @@
 }
 ul {
 	list-style: none;
+	padding-left: 0;
 }
 li {
-	display: inline;
+	display: inline-block;
 	text-align: center; 
 	margin: 0 auto;
-	padding: 0 6px 0 6px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 a {
 	text-decoration: none;
@@ -50,22 +52,86 @@ a {
 }
 
 /*Parrafo*/
+.containerParrafo {
+	width: 80%;
+	margin: 0 auto;
+}
 .bordeParrafo {
 	width: 10%;
 }
 p {
 	width: 80%;
+	margin: 0 auto;
 }
 
 /*Nuestras Coders */
 .nuestrasCoders {
 	width: 80%;
+	margin: 0 auto;
+}
+h3 {
+	text-align: left;
+	padding: 0 auto;
+}
+.decoNuestrasCoders {
+	width: 10%;
+}
+.granCodersContainer{
+	width: 100%;
 }
 .codersContainer {
 	width: 30%;
-	float: left;
 	padding: 1%;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
 }
 .imgCoders {
-	width: 100%
+	width: 100%;
+	position: relative;
+}
+.codersContainer p {
+	z-index: 2;
+	font-size: 14px;
+	position: absolute;
+	bottom: 10%;
+	text-align: right;
+	color: #fff;
+}
+
+/*Estilos de Coder Detail*/
+.container2 {
+	border: 1px solid black;
+	padding: 15px;
+}
+.perfilCoderImg {
+	width: 100px;
+	border-radius: 50px;
+	margin-top: 10px; 
+}
+h2 {
+	text-align: left;
+}
+.habilidad {
+	text-align: left;
+	padding: 10px;
+	background: gray;
+	margin: 15px;
+	color: white;
+}
+.habilidad1 {
+	width: 80%;
+}
+.habilidad2 {
+	width: 60%;
+}
+.habilidad3 {
+	width: 40%;
+}
+.portafolio {
+	width: 100%;
+}
+.portafolio img{
+	width: 25%;
+	margin: 2%;
 }
